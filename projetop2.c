@@ -66,6 +66,7 @@ int main() {
         while(fscanf(arquivo, "%d %s %d %d", &livros[total].codigo,livros[total].titulo_livros,&livros[total].ano_l,&livros[total].quantidade) == 4) {
             total ++;
         }
+         fclose(arquivo);
     }
 
     int options;
