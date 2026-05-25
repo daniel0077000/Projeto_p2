@@ -81,7 +81,7 @@ int main() {
     case 1: //adicionar livros
 
         printf("Escreva o codigo do livro:\n");
-        scanf("%d", p1.codigo);
+        scanf("%d", &p1.codigo);
 
         printf("Escreva o titulo do livro:\n");
         scanf("%s", p1.titulo_livros);
